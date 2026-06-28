@@ -175,6 +175,6 @@ for i in range(1, TOTAL_UPLOADS + 1):
         print(f"⚠️ [{i}/{TOTAL_UPLOADS}] Connection Error Instance: {e}")
 
     # 5 second spacing interval loop sequence
-    time.sleep(5)
+    time.sleep(3600)
 
 print("\n🏁 Wave tracking compilation complete.")
